@@ -1,0 +1,237 @@
+
+
+@media (max-width: 1024px) {
+	.container {
+		margin: 0 auto;
+		/*text-align: */
+	}
+	/*======Header =========*/
+	.header {
+		padding: 32px 5px;
+	}
+
+	.header-menu li a {
+		padding: 5px 10px;
+	}
+
+	/*========= Banner ==========*/
+	.banner-row {
+		padding-left: 20px;
+	}
+	.banner-img {
+		max-width: 100%;
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+	.banner-img img{
+		max-width: 100%;
+	}
+	.banner-desc {
+		padding-right: 20px;
+	}
+
+	/*======Service ==========*/
+
+	.service-item {
+		margin-bottom: 10px;
+	}
+
+	.services-row {
+		grid-template-columns: repeat(2,1fr);
+	}
+	/*======== About Us =========*/
+	.aboutUs-row {
+		/*display: grid;*/
+		grid-template-columns: 1fr 1fr;
+	}
+	.aboutUs-img {
+		max-width: 100%;
+	}
+
+	.aboutUs-img img {
+		position: absolute;
+		top: -40px;
+		left: -50px;
+	}
+	.section-desc {
+		margin: 0 0 15px 0;
+	}
+
+	/*========= Team ======*/
+	.team-row {
+		grid-template-columns: 1fr 1fr;
+	}
+	.team-item {
+		text-align: center;
+	}
+	.team-info {
+		background-color: #fff;
+		border: 1px solid #ddd;
+		width: 257px;
+		/*height: 77px;*/
+		position: relative;
+		/*top: 85%;*/
+		left: 18%;
+		transform: translateY(-50%);
+		/*margin-left: 25px;*/
+		/*margin-right: 25px;*/
+
+	}
+	/*===== Portfolio =========*/
+
+	.portfolio-row {
+		grid-template-columns: repeat(2,1fr);
+	}
+
+	.portfolio-item {
+		text-align: center;
+		margin: 10px;
+	}
+	/*=========== FAQ==========*/
+
+	.faq-section {
+		margin: 15px 20px;
+	}
+
+
+	/*======= Rate ==========*/
+	.rate-row {
+		grid-template-columns: 1fr;
+	}
+	.rate-item {
+		margin: 10px;
+	}
+	.rate-footer__row {
+		flex-direction: column;
+	}
+	.section-slogan {
+		margin-left: 20px;
+	}
+	.section-desc {
+		margin-left: 20px;
+	}
+
+	/*======Footer =========*/
+	.footer-row {
+		grid-template-columns: repeat(2,1fr);
+		text-align: center;
+		justify-content: center
+	}
+
+	
+}
+
+@media (max-width: 768px) {
+	.container {
+		margin: 0 auto;
+		/*text-align: */
+	}
+	/*======Header =========*/
+	.header {
+		padding: 32px 5px;
+	}
+	.header-menu {
+		display: none;
+	}
+
+	.header-menu li a {
+		padding: 5px 10px;
+	}
+	.extra-menu {
+		display: none;
+	}
+
+	/*========= Banner ==========*/
+	.banner-row {
+		padding-left: 20px;
+		grid-template-columns: 1fr;
+	}
+	.banner-img {
+		max-width: 100%;
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+	.banner-img img{
+		max-width: 100%;
+	}
+	.banner-desc {
+		padding-right: 20px;
+	}
+
+	/*======Service ==========*/
+
+	.service-item {
+		margin-bottom: 10px;
+	}
+
+	.services-row {
+		grid-template-columns: repeat(2,1fr);
+	}
+
+	.services-main__row {
+		display: block;
+		text-align: center; 
+	}
+
+	.main__info-table {
+		margin: 0 16px;
+	}
+	/*======== About Us =========*/
+	.aboutUs-row {
+		grid-template-columns: 1fr;
+	}
+	.aboutUs-img {
+		max-width: 100%;
+	}
+	.section-title {
+		margin-left: 20px;
+	}
+	.btn-aboutus {
+		margin-left: 20px;
+	}
+
+	.aboutUs-img img {
+		position: absolute;
+		top: -40px;
+		left: -50px;
+	}
+	.section-desc {
+		margin: 0 0 15px 20px;
+	}
+
+	/*========= Team ======*/
+	.team-row {
+		grid-template-columns: 1fr 1fr;
+	}
+	.team-item {
+		text-align: center;
+	}
+	.team-info {
+		background-color: #fff;
+		border: 1px solid #ddd;
+		width: 257px;
+		position: relative;
+		left: 0%;
+		transform: translateY(-50%);
+	}
+	/*===== Portfolio =========*/
+	.portfolio-row {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+	/*======== About-us =========*/
+
+	.main-row {
+		display: block;
+	}
+
+
+	/*====== Footer =========*/
+	.rate-footer__row {
+		flex-direction: column;
+	}
+
+}

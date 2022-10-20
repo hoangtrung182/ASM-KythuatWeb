@@ -1,0 +1,47 @@
+
+
+.services-main__row {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 50px;
+}
+
+.services-main {
+	padding: 60px 0;
+}
+
+.services-main__info-title {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+
+.services-main__info-desc {
+	margin: 24px 0;
+	font-size: 14px;
+}
+.main__info-table {
+	padding: 16px 0;
+	border-bottom: 1px solid #ddd;
+	margin-right: 20%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.title {
+	font-size: 18px;
+}
+
+.information {
+	font-size: 18px;
+	opacity: .5;
+}
+
+.services-main__btn {
+	margin: 24px 0;
+}
+
+
+.services-main__img img{
+	max-width: 100%;
+}

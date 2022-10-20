@@ -1,0 +1,66 @@
+body {
+	font-size: 16px;
+}
+
+.container {
+	max-width: 1065px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.main-box {
+	margin-top: 90px;
+	margin-bottom: 30px;
+	border: 1px solid #ddd;
+}
+
+.main-row {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 20px;
+}
+
+/*=========== Main =============*/
+
+.main-info__menu {
+	padding: 0;
+	list-style: none;
+}
+
+.main-info__menu li a {
+	padding: 10px 0;
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+
+
+.main-info, .main-form {
+	margin: 50px 0 50px 90px;
+}
+.main-info__name {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.main-form__name {
+	font-size: 20px;
+}
+
+.main-form__decs {
+	font-size: 14px;
+	opacity: .8;
+	border-bottom: 1px solid #505050;
+	margin-right: 20%;
+	padding-bottom: 10px;
+}
+
+.form-label {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.mt {
+	margin-top: 60px;
+}
